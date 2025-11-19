@@ -77,7 +77,12 @@ const App: React.FC = () => {
 
 
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto relative">
+            {/* Version Tag */}
+            <div className="fixed top-3 left-3 z-40 text-[10px] md:text-xs font-mono text-gray-500 opacity-60 select-none pointer-events-none">
+                v1.0.0 • {new Date().toLocaleDateString()}
+            </div>
+
             <h1 className="text-3xl md:text-4xl font-bold text-center text-blue-500 mb-6">Hexagon Cube Font Editor</h1>
 
             <ControlsPanel 
