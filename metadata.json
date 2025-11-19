@@ -1,0 +1,5 @@
+{
+  "name": "Hexagon Cube Font Editor",
+  "description": "An interactive editor to create and customize text using a unique 3D cube-based font displayed within a hexagonal grid. Adjust size, colors, strokes, and animations to design your own style.",
+  "requestFramePermissions": []
+}
